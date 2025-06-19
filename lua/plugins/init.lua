@@ -13,6 +13,13 @@ return {
     end,
   },
 
+  {
+    "williamboman/mason.nvim",
+    config = true,
+    build = ":MasonUpdate"
+  },
+
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
