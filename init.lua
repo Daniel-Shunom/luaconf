@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 local lazy_config = require "configs.lazy"
 
 vim.diagnostic.config({
-  virtual_text = true,      -- Show inline errors
+  virtual_text = false,      -- Show inline errors
   signs = true,             -- Show signs in the gutter
   underline = true,         -- Underline errors
   severity_sort = true,     -- Sort diagnostics by severity
