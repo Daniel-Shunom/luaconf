@@ -8,7 +8,7 @@ vim.lsp.enable('gleam')
 vim.lsp.enable('erlang_ls')
 vim.lsp.enable('cmake')
 vim.lsp.enable('tailwind')
-vim.lsp.enable('haskell-language-server')
+vim.lsp.enable('hls')
 
 vim.lsp.config('ts_ls', {
   init_options = { hostInfo = 'neovim' },
