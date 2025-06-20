@@ -5,7 +5,7 @@ vim.lsp.enable(servers)
 
 vim.lsp.enable('pyright')
 vim.lsp.enable('gleam')
-vim.lsp.enable('erlang')
+vim.lsp.enable('erlang_ls')
 vim.lsp.enable('cmake')
 vim.lsp.enable('tailwind')
 
