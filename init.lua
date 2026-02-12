@@ -26,7 +26,8 @@ require("lazy").setup({
   {
     "neovim/nvim-lspconfig",
     config = function()
-      require('lspconfig').gleam.setup({})
+      local lspconfig = require("lspconfig")
+      lspconfig.gleam.setup({})
     end
   },
   {

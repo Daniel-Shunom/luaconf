@@ -14,7 +14,7 @@ vim.opt.cursorline = true         -- Highlight the current line
 vim.opt.termguicolors = true      -- Enable 24-bit RGB colors
 vim.opt.signcolumn = "yes"        -- Always show the sign column
 vim.opt.numberwidth = 4           -- Set number column width
-vim.opt.scrolloff = 8             -- Keep 8 lines above/below cursor
+vim.opt.scrolloff = 25             -- Keep 8 lines above/below cursor
 
 
 vim.opt.backup = true
@@ -26,7 +26,7 @@ vim.opt.swapfile = true
 vim.opt.directory = vim.fn.stdpath("data") .. "/swp//"
 
 vim.opt.undofile = true
-vim.opt.undodir = vim.fn.stdpath("data") .. "/undo//"
+vim.opt.undodir = vim.fn.stdpath("data") .. "/undo/"
 
 vim.opt.completeopt = { "menuone", "noselect" }  -- Better completion
 
