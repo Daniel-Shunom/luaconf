@@ -6,8 +6,8 @@ vim.opt.relativenumber = true
 
 vim.opt.smartindent = true        -- Smart autoindenting
 vim.opt.expandtab = true          -- Use spaces instead of tabs
-vim.opt.shiftwidth = 2            -- Indent by 2 spaces
-vim.opt.tabstop = 2               -- A tab is 2 spaces
+vim.opt.shiftwidth = 4            -- Indent by 2 spaces
+vim.opt.tabstop = 4               -- A tab is 2 spaces
 vim.opt.wrap = false              -- Disable line wrapping
 
 vim.opt.cursorline = true         -- Highlight the current line
